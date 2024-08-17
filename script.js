@@ -4,13 +4,13 @@ let cartItem= document.getElementById('cartItem');
 const product=[
     {
     id:0,
-    image:'images/fast-fashion-vs-slow-sustainable-fashion.jpg',
+    image:'fast-fashion-vs-slow-sustainable-fashion.jpg',
     title: 'sustainable-fashion',
     price: 100,  
  },
   {
     id:1,
-    image:'images/she-likes-fashion-so-much.jpg',
+    image:'she-likes-fashion-so-much.jpg',
     title: 'she-likes-fashion',
     price: 150, 
   },
