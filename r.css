@@ -1,0 +1,181 @@
+﻿
+input[type=text],input[type=password]
+ {
+       color:black;
+   font-weight: 500;
+        
+        border-radius: 7px;
+        width: 90%;
+        padding: 8px 4px;
+        margin-bottom: 10px;
+        border: none;
+        border-bottom : solid 1px black;} 
+        
+        *
+        {
+            margin=0;
+            padding=0;
+            box-sizing:border-box;
+            font-family:"Poppins" , Sans-Serif;
+        }
+        body 
+        {
+            display:flex;
+            justify-content: center;
+            min-height:100vh;
+            background: url("portrat-trendy-feminine-girl-posing-with-shopping-bags-from-store-credit-card-paying-contactl.jpg") no-repeat;
+            background-size:cover;
+            background-position:center;
+        }
+        .wrapper
+        {
+           width:420px;
+            background: transparent;
+            border:2px solid rgba(255,255,255, .2);
+            backdrop-filter:blur(20px);
+            box-shadow:0 0 10px rgba(0,0,0, .2);
+            color:#fff;
+            border-radius:10px;
+            padding:30px 40px ;
+        }
+        
+        .wrapper h1 
+        {
+            font-size:36px;
+            text-align:center;}
+            .wrapper .input-box
+            {
+                width:100%;
+                height:50px;
+               
+                margin:30px 0;
+            }
+                .input-box input 
+                {
+                    width:100%;
+                    height:100%;
+                    background: transparent;
+                    border:none;
+                    outline:none;
+                    border:2px solid rgba(255,255,255,2);
+                    border-radius:40px;
+                    font-size:16px;
+                    color:#fff;
+                    padding:20px 45px 20px 20px;
+                }
+                .input-box input :: placeholder
+                {
+                    color:#fff;
+                }
+                .input-box i 
+                {
+                    position:absolute;
+                    right:20px;
+                    top:50%;
+                    transform: translatey(-50%);
+                    font-size:20px;
+                }
+                .wrapper .remember-forgot
+                {
+                    display:flex;
+                    justify-content:space-between;
+                    font-size:11.5px;
+                    margin:-15px 0 15px;}
+                    
+                    .remember-forgot label input 
+                    {
+                        accent-color:#fff;
+                        margin-right:1px;
+                    }
+                    
+                    .remember-forgot a 
+                    {
+                        color:#fff;
+                        text-decoration:none;
+                    }
+                    .remember-forgot a:hover 
+                    {
+                        text-decoration:underline;}
+                        
+                        
+                        .wrapper .btn 
+                        {
+                            width :100%;
+                            height: 45px;
+                            background:#fff;
+                            border:none;
+                            outline:none;
+                            border-radius:40px;
+                            box-shadow: 0 0 10px rgba(0,0,0, .1);
+                            cursor:pointer;
+                            font-size:16px;
+                            color:#333;
+                            font-weight:600;}
+                            .wrapper register-link
+                            {
+                                font-size:14.5px;
+                                text-align:center;
+                                margin:20px 0 15px;
+                            }
+                            . register-link p a 
+                            {
+                                color:#fff;
+                                text-decoration:none;
+                                font-weight:600;
+                            }
+                            . register-link p a:hover
+                            {
+                                text-decoration:underline;
+                            }
+                           
+    
+  
+    section
+    {
+        padding:5% 10%;
+    }
+    .main-home
+    {
+        width:100;
+        height:50px;
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
+        align-items:center;}
+        
+       .main-text h5
+       {
+           color:#EE1C47;
+           font-size:16px;
+           text-transform:capitalize;
+           font-weight:500;}
+           
+                                
+        .main-text h1
+        {
+          color: #000;
+          font-size:65px;
+          text-transform:capitalize;
+          line-height:1.1;
+          font-weight:600;
+          margin :6px 0 10;}
+            
+            
+            .main-text p
+          { color:#333c56;
+            font-size:20px;
+            font-style:italic;
+            margin-bottom:20px;}
+            
+           .main-btn
+            { display:inline-block;
+              color:#111;
+              font-size:16px;
+              font-weight:500;
+              text-transform:capitalize;
+              border:2px solid #111;
+              padding:12px 25px ;
+              transition: all .42s ease;}
+              .main-btn:hover
+              {
+                  background-color:#000;
+                  color:#fff;}
